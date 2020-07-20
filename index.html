@@ -1,0 +1,33 @@
+<html>
+<head>
+  <link rel="stylesheet" href="loginpage.css">
+  <script src="main.js"></script>
+</head>
+<body class="bodyclass" id="bodyid">
+  <div class="header">hello there.</div>
+  <div class = "body">
+    <form action="http://example.com/login" id="login_form" method="post">
+
+      <div class="formtext">username:</div>
+      <input class="form_section" id="username"
+             name="session[username_or_email]" tabindex="1" type="text" value="" />
+
+      <div class="formtext">password:</div>
+      <input class="form_section" id="password"
+               name="session[username_or_email]" tabindex="1" type="text" value="" />
+
+      <input type="submit" class="gobutton" value="go" id="go" tabindex="3">
+
+      <input type="button" class="autologbutton" value="simulate login" onclick="simulateLogin('testUser', 'test')">
+    </form>
+  </div>
+</body>
+<script>
+  function simulateLogin(username, password)
+    {
+        document.getElementById("username").value = username;
+        document.getElementById("password").value = password;
+        document.getElementById("go").click();
+    }
+</script>
+</html>

@@ -1,0 +1,129 @@
+/* hello there. */
+
+.header {
+
+position: relative;
+width: 657px;
+height: 141px;
+left: 79px;
+top: 70px;
+
+font-family: Spectral;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 97px;
+
+color: #000000;
+
+}
+
+/* grey rectangle */
+#login_form {
+
+position: relative;
+width: 480px;
+height: 480px;
+left: 395px;
+top: 85px;
+
+background: #C4C4C4;
+border-radius: 48px;
+
+}
+/* text boxes */
+
+.form_section {
+
+position: relative;
+width: 263px;
+height: 51px;
+left: 70px;
+top: 70px;
+
+background: #FAF4F4;
+border-radius: 48px;
+}
+
+
+/* username: */
+.formtext {
+
+position: relative;
+width: 237px;
+height: 62px;
+left: 66px;
+top: 62px;
+
+font-family: Spectral;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 55px;
+
+color: #000000;
+
+}
+/* go */
+.gotext {
+
+position: relative;
+width: 237px;
+height: 62px;
+left: 86px;
+top: 0px;
+
+font-family: Spectral;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 55px;
+text-align: center;
+
+color: #000000;
+}
+
+.gobutton
+{
+position: relative;
+width: 263px;
+height: 51px;
+left: 193px;
+top: 110px;
+
+background: #8FB776;
+border-radius: 48px;
+
+font-family: Spectral;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 55px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.autologbutton
+{
+
+position: relative;
+width: 120px;
+height: 30px;
+left: 60px;
+top: 150px;
+margin-top:20px;
+background: #C486CE;
+border-radius: 48px;
+
+font-family: Spectral;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+
+color: #000000;
+
+}
